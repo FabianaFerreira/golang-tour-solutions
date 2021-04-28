@@ -17,6 +17,6 @@ func Pic(dx, dy int) [][]uint8 {
 	return matrix
 }
 
-func image() {
+func generateImage() {
 	pic.Show(Pic)
 }
